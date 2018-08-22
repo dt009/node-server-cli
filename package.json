@@ -1,5 +1,5 @@
 {
-  "name": "node-server-cli",
+  "name": "dt-cli",
   "version": "1.0.0",
   "description": "自用包, 下载出问题后果自负",
   "main": "index.js",
