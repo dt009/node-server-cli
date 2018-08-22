@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "自用包, 下载出问题后果自负",
   "main": "index.js",
-  "repository": "https://github.com/dt009/node-server-cli.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dt009/node-server-cli.git"
+  },
   "author": "dt009 <18363625031@163.com>",
   "license": "MIT",
   "bin": {
@@ -16,5 +19,16 @@
     "co-prompt": "^1.0.0",
     "commander": "^2.17.1",
     "ora": "^3.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/dt009/node-server-cli/issues"
+  },
+  "homepage": "https://github.com/dt009/node-server-cli#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
